@@ -1,22 +1,10 @@
 function Hero() {
   return (
-    <section id="home" className="min-h-screen bg-black text-white flex items-center justify-center relative overflow-hidden">
-
-      {/* Glow Backgrounds */}
-
-      <div className="absolute w-[600px] h-[600px] bg-purple-500/20 blur-3xl rounded-full top-[-200px] left-[-200px]" />
-
-      <div className="absolute w-[500px] h-[500px] bg-green-500/20 blur-3xl rounded-full bottom-[-150px] right-[-150px]" />
-
-      <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.03)_1px,transparent_1px)] bg-[size:40px_40px]" />
+    <section id="home" className="min-h-screen text-white flex items-center justify-center relative overflow-hidden">
 
       {/* Content */}
 
       <div className="text-center z-10 px-6">
-
-        <p className="uppercase tracking-[10px] text-green-400 mb-6 font-semibold">
-          Futuristic Full Stack Developer
-        </p>
 
         <h1 className="text-6xl md:text-8xl font-black leading-tight mb-8">
           <span className="bg-gradient-to-r from-green-400 via-purple-400 to-fuchsia-500 text-transparent bg-clip-text">

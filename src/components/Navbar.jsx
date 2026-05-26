@@ -10,9 +10,19 @@ function Navbar() {
 
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
 
-        <h1 className="text-2xl font-black bg-gradient-to-r from-green-400 to-purple-500 text-transparent bg-clip-text">
-          Stiven.dev
-        </h1>
+        <div className="flex items-center gap-4">
+
+            <img
+                src="/logo.png"
+                alt="logo"
+                className="w-12 h-12 object-contain drop-shadow-[0_0_12px_rgba(34,197,94,0.8)]"
+            />
+
+            <h1 className="text-2xl font-black bg-gradient-to-r from-green-400 to-purple-500 text-transparent bg-clip-text">
+                Stiven.dev
+            </h1>
+
+        </div>
 
         {/* Desktop Menu */}
 

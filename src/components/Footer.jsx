@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer
       id="contact"
-      className="py-20 bg-black border-t border-green-500/20"
+      className="py-20 bg-black/75 border-t border-green-500/20 relative"
     >
 
       <div className="max-w-7xl mx-auto px-6 text-center">

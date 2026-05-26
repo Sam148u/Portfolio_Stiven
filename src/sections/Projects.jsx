@@ -22,7 +22,7 @@ const projects = [
 
 function Projects() {
   return (
-    <section id="projects"className="py-32 bg-[#050505] text-white">
+    <section id="projects"className="py-32 bg-black/70 text-white relative">
 
       <div className="max-w-7xl mx-auto px-6">
 

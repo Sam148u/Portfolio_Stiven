@@ -3,10 +3,12 @@ import Hero from "./sections/Hero"
 import TechStack from "./sections/TechStack"
 import Projects from "./sections/Projects"
 import Footer from "./components/Footer"
+import CyberpunkBackground from "./components/CyberpunkBackground"
 
 function App() {
   return (
-    <div className="bg-black overflow-hidden">
+    <div className="relative min-h-screen overflow-hidden bg-black">
+      <CyberpunkBackground />
       <Navbar />
       <Hero />
       <TechStack />
