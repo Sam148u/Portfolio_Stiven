@@ -7,7 +7,7 @@ import CyberpunkBackground from "./components/CyberpunkBackground"
 
 function App() {
   return (
-    <div className="relative min-h-screen overflow-hidden bg-black">
+    <div className="relative min-h-screen overflow-hidden bg-black pt-24">
       <CyberpunkBackground />
       <Navbar />
       <Hero />
